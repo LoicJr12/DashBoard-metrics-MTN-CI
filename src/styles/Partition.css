@@ -1,0 +1,54 @@
+.graph_partition_infos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texts_partitions{
+    display: flex;
+    flex-direction: column;
+}
+
+.texts_partitions > span{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.graph_infos{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+.text_infos{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.graph_infos > span,
+.text_infos > span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/****************    RESPONSIVE    *****************/
+
+@media screen and (max-width: 997px) {
+    .bulle_section3{
+        height: 100vh;
+    }
+
+    .partition_widget{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/*******************    END    *********************/

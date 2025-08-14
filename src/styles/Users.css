@@ -1,0 +1,78 @@
+.containeur_list_users{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% - 40px) ;
+    padding: 10px 20px;
+    gap: 20px;
+}
+
+.containeur_list_users > span{
+    display: flex;
+    flex-direction: column;
+    color: #000000f4;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.dataTable{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: calc(100% - 40px); 
+    border-radius: 5px ;
+    gap: 5px;
+}
+
+.dataTable > button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    height: 30px;
+    width: 140px;
+    font-size: 18 px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #ffc400;
+    border: none;
+    background: none;
+}
+
+.dataTable > button:hover{
+    border-radius: 10px;
+    background: #ffd95e79;
+}
+
+.ActionUser{
+    display: flex; 
+    flex-direction: row; 
+    gap: 5px; 
+    align-items: center; 
+    width: 200px;
+    padding: 5px 0px;
+
+    .edit{
+        background: rgb(19, 191, 53);
+    }
+
+    .delete{
+        background: red;
+    }
+}
+
+.ActionUser > span{
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    padding: 0px 4px;
+    align-items: center;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+    font-weight: 600;
+}

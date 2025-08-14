@@ -1,0 +1,62 @@
+.containeur_Home{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 40px);
+    gap: 15px;
+}
+
+.containeur_Home > .entete{
+    font-size: 25px;
+    font-weight: 700;
+    color: #000000f4;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+#select_server{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    height: 35px;
+    font-size: 16 px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    background: #ffc400;
+    box-shadow: 1px 1px 10px 1px rgb(185, 185, 185);
+}
+
+.section1,
+.section2,
+.section3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 35px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+
+
+/****************    RESPONSIVE    *****************/
+
+@media screen and (max-width: 722px) {
+    .section1{
+        display: inline;
+    }
+    .bulle_section1{
+        margin-bottom: 10px;
+        width: calc(100% - 20px);
+    }
+}
+
+/*******************    END    *********************/
